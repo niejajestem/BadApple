@@ -1,4 +1,3 @@
-// Funkcja do rysowania kwadratów
 function rysujKwadrat(context, x, y, dlugoscBoku, kolor)
 {
     if (kolor)
@@ -26,7 +25,7 @@ function rysujKlatke()
         {
             for (let j = 0; j < szerokosc; j++)
             {
-                rysujKwadrat(kontekst, j * 20, i * 20, 19, window.badApple[klatka][i][j]);
+                rysujKwadrat(kontekst, j*20, i*20, 20, window.badApple[klatka][i][j]);
             }
         }
         
